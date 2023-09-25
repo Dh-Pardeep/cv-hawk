@@ -57,3 +57,21 @@
         box-shadow: 0 0 0 0 #F36A3E;
     }
 }
+.common_btntwo {
+    transition: all 0.3s linear;
+    border: 1px solid #F36A3E !important;
+}
+
+.common_btntwo:focus,
+.common_btntwo:hover {
+    -webkit-animation: pulsetwo 1s;
+    animation: pulsetwo 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+    color: #F36A3E;
+}
+
+@keyframes pulsetwo {
+    0% {
+        box-shadow: 0 0 0 0 white ;
+    }
+}

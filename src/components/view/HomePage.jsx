@@ -18,7 +18,7 @@ const HomePage = () => {
         <WeHelpYou/> */}
         {/* <Professionally/> */}
         {/* <Resume/> */}
-        {/* <MyAccordion/> */}
+        <MyAccordion/>
         <MyFooter/>
     </div>
   )
