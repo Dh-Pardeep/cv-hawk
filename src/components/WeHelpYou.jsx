@@ -5,7 +5,7 @@ const WeHelpYou = () => {
   return (
     <section>
       <div className="container mx-auto">
-        <div className='md:flex gap-[31px]'>
+        <div className='md:flex gap-[31px] md:pt-[120px] lg:pt-[150px] md:mb-[35px] lg:mb-[70px]'>
           <div className='md:w-6/12 lg:pt-[57px]'>
             <h2 className='text-[#010101] font-Rubik text-[27px] md:text-[30px] font-medium pt-[100px] md:pt-0 pb-[15px] '>We’ll help you</h2>
             <p className='text-black font-Rubik text-[14px] font-normal leading-[150%] pb-[40px] md:pb-0 lg:max-w-[455px]'>Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>

@@ -20,7 +20,7 @@ const Themes = () => {
         arrows: false,
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1199,
                 settings: {
                     slidesToShow: 3,
                 }
@@ -32,14 +32,14 @@ const Themes = () => {
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 575,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -73,7 +73,7 @@ const Themes = () => {
                         </div>
                     </Slider>
                 </div>
-                <div className='lg:flex justify-center mt-[100px]'>
+                <div className='lg:flex justify-center mt-[100px] mb-[100px] md:mb-[120px] lg:mb-[150px]'>
                     <div className='w-full lg:w-6/12 py-4 lg:pe-[18px]'>
                         <img className='shadow-[0px_2.01812px_23.5447px_0px] hidden lg:block shadow-[#d3d0d0] rounded-[10px] lg:h-[340px] w-full' src={ThemesSectionImg} alt="Img" />
                         <img className='lg:hidden w-full shadow-[#d3d0d0] shadow-[0px_2.01812px_23.5447px_0px] rounded-[10px]' src={ThemesSectionImgtwo} alt="" />

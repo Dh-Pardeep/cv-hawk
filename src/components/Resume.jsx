@@ -6,7 +6,7 @@ const Resume = () => {
     return (
         <section >
             <div className="container mx-auto">
-                <div className='md:flex items-center md:py-[80px] gap-[40px]'>
+                <div className='md:flex items-center my-[50px] md:my-[70px] lg:my-[90px]  gap-[40px]'>
                     <div className=' lg:w-7/12'>
                         <h2 className='text-[#010101] font-Rubik text-[27px] md:text-[30px] font-medium pt-[40px] md:pt-0 pb-[15px] lg:max-w-[402px] relative'>Resume trailoring based on the<span className='text-[#F36A3E] relative'><img className='w-full hidden lg:block absolute left-0 -bottom-4' src={BuilderDownImg} alt="BuilderDownImg" />job you’re applying</span> for</h2>
                         <p className='text-black font-Rubik text-[13px] md:text-[16px] font-normal leading-[150%] pb-[30px] md:pb-0 lg:max-w-[455px] '>Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
