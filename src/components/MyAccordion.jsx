@@ -29,17 +29,17 @@ export function MyAccordion() {
         <section className="relative">
             {/* <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[45%]  start-[50%]'></div> */}
             <div className="container mx-auto mb-[455px] md:mb-[290px]">
-                <h2 className="text-black font-medium text-[28px] md:text-[30px] lg:text-[40px]  font-Rubik leading-none text-center md:pt-[70px] pb-[20px] md:pb-[60px] ">Frequently Asked Questions</h2>
+                <h2 className="text-black pt-[100px]  font-medium text-[28px] md:text-[30px] lg:text-[40px]  font-Rubik leading-none text-center md:pt-[120px] lg:pt-[150px] pb-[20px] md:pb-[60px] ">Frequently Asked Questions</h2>
                 <div className=" flex justify-center pb-[60px] sm:pb-0 md:pb-[120px] relative z-20 ">
                     <div className="w-full lg:w-10/12 text-[#010101] ">
-                        <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className="  pb-[13px]">
+                        <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px]  lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(1)}>Q1. How does the CVhawk work??</AccordionHeader>
                             <AccordionBody className=" font-normal text-[14px] md:text-base   font-Rubik">
                                 Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.
                             </AccordionBody>
                         </Accordion>
                         <div className='border-[1px] border-solid border-black opacity-[0.1] ' ></div>
-                        <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className="pt-[25px]  pb-[13px]">
+                        <Accordion open={open === 2} icon={<Icon id={2} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px] lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(2)}>
                                 Q2. Is the CVhawk completely free to use?
                             </AccordionHeader>
@@ -48,7 +48,7 @@ export function MyAccordion() {
                             </AccordionBody>
                         </Accordion>
                         <div className='border-[1px] border-solid border-black opacity-[0.1] ' ></div>
-                        <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className="pt-[25px]  pb-[13px]">
+                        <Accordion open={open === 3} icon={<Icon id={3} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px] lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(3)}>
                                 Q3. Can I edit my CV after I've saved it?
                             </AccordionHeader>
@@ -57,14 +57,14 @@ export function MyAccordion() {
                             </AccordionBody>
                         </Accordion>
                         <div className='border-[1px] border-solid border-black opacity-[0.1] ' ></div>
-                        <Accordion open={open === 4} icon={<Icon id={4} open={open} />} className="pt-[25px]  pb-[13px]">
+                        <Accordion open={open === 4} icon={<Icon id={4} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px] lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(4)}>Q4. Can I import my existing CV into the builder?</AccordionHeader>
                             <AccordionBody className=" font-normal text-[14px] md:text-base   font-Rubik">
                                 Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.
                             </AccordionBody>
                         </Accordion>
                         <div className='border-[1px] border-solid border-black opacity-[0.1] ' ></div>
-                        <Accordion open={open === 5} icon={<Icon id={5} open={open} />} className="pt-[25px]  pb-[13px]">
+                        <Accordion open={open === 5} icon={<Icon id={5} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px] lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(5)}>
                                 Q5. Is my personal information safe and secure?
                             </AccordionHeader>
@@ -73,7 +73,7 @@ export function MyAccordion() {
                             </AccordionBody>
                         </Accordion>
                         <div className='border-[1px] border-solid border-black opacity-[0.1] ' ></div>
-                        <Accordion open={open === 6} icon={<Icon id={6} open={open} />} className="pt-[25px]  pb-[13px]">
+                        <Accordion open={open === 6} icon={<Icon id={6} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px] lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(6)}>
                                 Q6. What kind of templates are available in the CV builder?
                             </AccordionHeader>
@@ -89,11 +89,11 @@ export function MyAccordion() {
                         <h2 className="text-center font-Rubik text-[28px] md:text-[30px] lg:text-[40px] font-medium text-white md:max-w-[669px] mx-auto">Your Path to Success Starts Here: Build Your CV Today</h2>
                         <p className="text-center text-white text-[14px] md:text-base mt-[16px] mb-[40px]  max-w-[615px] mx-auto"> Our CV builder not only provides a user-friendly interface but also offers valuable guidance along the way.</p>
                         <div className="flex justify-center">
-                            <Link onClick={() => setShowNavbar(true)} className='px-[22px] py-[14px] xs:px-[38px] xs:py-[17px] text-black bg-white text-center xs:ms-0 common_btntwo  rounded-[41px] font-semibold font-Rubik inline-block ' to="/Touch">Watch Demo</Link>
+                            <Link onClick={() => setShowNavbar(true)} className='px-[22px] py-[14px] xs:px-[38px] xs:py-[17px] text-black bg-white text-center xs:ms-0 common_btntwo  rounded-[41px] font-semibold font-Rubik inline-block ' to="/Touch">Get Started</Link>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>kj
         </section>
     );
 };

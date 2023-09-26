@@ -15,7 +15,7 @@ const HeroSection = () => {
         <section className='relative'>
             <img className='absolute hidden md:block left-[20px] lg:top-[28%] top-[38%] w-[122px] lg:w-[186px] h-[134px] lg:h-[200px] rotate-[-19deg] shadow-[0px_2.01812px_23.5447px_0px] shadow-[#d3d0d0] rounded-[10px]' src={LeftImg} alt="" />
             <img className='absolute hidden md:block bottom-[-160px] xl:bottom-[-210px]  rotate-[-33deg]  w-[185px] left-[40px]  lg:w-[207px] h-[200px] lg:h-[227px]  shadow-[0px_2.01812px_23.5447px_0px] xl:left-[145px] shadow-[#d3d0d0] rounded-[10px]' src={LeftImgtwo} alt="" />
-            <img className='absolute hidden md:block right-[20px] lg:top-[28%] top-[38%] w-[122px] lg:w-[186px] h-[134px] lg:h-[200px] rotate-[21deg] shadow-[0px_2.01812px_23.5447px_0px] shadow-[#d3d0d0] rounded-[10px]' src={RightImg} alt="" />
+            <img className='absolute hidden md:block right-[35px] lg:top-[28%] top-[38%] w-[122px] lg:w-[186px] h-[134px] lg:h-[200px] rotate-[21deg] shadow-[0px_2.01812px_23.5447px_0px] shadow-[#d3d0d0] rounded-[10px]' src={RightImg} alt="" />
             <img className='absolute hidden md:block bottom-[-160px] xl:bottom-[-210px]  rotate-[28deg]  w-[185px] right-[40px]  lg:w-[207px] h-[200px] lg:h-[227px]  shadow-[0px_2.01812px_23.5447px_0px] xl:right-[145px] shadow-[#d3d0d0] rounded-[10px]' src={RightImgtwo} alt="" />
             <img className='absolute -bottom-[25%] hidden md:block left-[50%] translate-x-[-50%]' src={HeroCenterLogo} alt="" />
             <img className='absolute bottom-[13%] sm:rotate-[20deg] lg:rotate-[40deg] lg:right-[50px] right-0 sm:right-[20px] h-[50px] sm:h-[55px] md:w-[65px] md:h-[65px]' src={HalfCircel} alt="HalfCircel" />
