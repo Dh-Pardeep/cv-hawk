@@ -61,7 +61,7 @@ const ClientsSlider = () => {
     return (
         <section className='bg-[#F9F9F9] '>
             <div className="container mx-auto relative">
-                <h2 className="text-black font-medium text-[28px] md:text-[30px] lg:text-[40px]  font-Rubik leading-none text-center pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[30px] md:pb-[40px] lg:pb-[45px]">What our Clients Say</h2>
+                <h2 className="text-black font-medium text-[28px] md:text-[30px] lg:text-[40px]  font-Rubik leading-none text-center pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[30px] md:pb-[40px] lg:pb-[45px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">What our Clients Say</h2>
                 <div className='relative md:hidden'data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
                     <div onClick={() => slider?.current?.slickPrev()}
                         className="absolute left-[40%] bottom-[30px]  hover:bg-[#F36A3E] transition-all duration-300  ease-in-out leftarrow  sm:left-[43%] z-40 cursor-pointer w-[25px] h-[25px] md:w-[42px] md:h-[42px] border-[2px] border-solid border-[#F36A3E] rounded-[50%] flex items-center justify-center" >

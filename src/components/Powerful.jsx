@@ -7,9 +7,9 @@ import BuilderDownImg from './../assets/img/png/builderDownline.png'
 const Powerful = () => {
     return (
         <section className='bg-[#F9F9F9] relative'>
-            <img data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear" className='absolute hidden lg:block top-[15%]  left-[5%] w-[64px] h-[64px]  ' src={UnlockUpper} alt="UnlockUpper" />
-            <img data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear" className='absolute hidden md:block top-[8%]  rotate-[5deg] right-[20px]  w-[44px] h-[44px]  lg:w-[61px] lg:h-[87px] ' src={CubeHero} alt="HalfCircel" />
-            <img data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear" className='absolute hidden md:block bottom-[13%] right-[42%] lg:right-[50%]  lg:rotate-[45deg]   w-[78px] h-[54px] ' src={HalfCircel} alt="HalfCircel" />
+            <img  className='absolute hidden lg:block top-[15%]  left-[5%] w-[64px] h-[64px]  ' src={UnlockUpper} alt="UnlockUpper" />
+            <img className='absolute hidden md:block top-[8%]  rotate-[5deg] right-[20px]  w-[44px] h-[44px]  lg:w-[61px] lg:h-[87px] ' src={CubeHero} alt="HalfCircel" />
+            <img  className='absolute hidden md:block bottom-[13%] right-[42%] lg:right-[50%]  lg:rotate-[45deg]   w-[78px] h-[54px] ' src={HalfCircel} alt="HalfCircel" />
             <div className="container mx-auto">
                 <div className='md:flex items-center md:py-[80px]'>
                     <div className='md:w-7/12' data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
