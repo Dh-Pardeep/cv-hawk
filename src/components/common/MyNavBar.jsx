@@ -12,7 +12,7 @@ const MyNavBar = () => {
   }
   return (
     <>
-      <section className='position-fixed top-0 w-100 z_1000'>
+      <section className=' top-0 w-full z-[1000]'>
         <div className='container mx-auto'>
           <nav className='flex justify-between items-center py-1'>
             <img className='cursor-pointer w-[156px] h-[100px]' src={Logo} alt="Log" />

@@ -37,3 +37,52 @@
 .rightarrow:hover svg path {
     fill: #F9F9F9;
 }
+.svgColor:hover path{
+    fill:#F36A3E;
+}
+.svgColortwo:hover path{
+    stroke:#F36A3E;
+}
+.scrollTop {
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+}
+
+@media (min-width:575.9px) {
+    .scrollTop {
+        height: 45px !important;
+    }
+}
+
+@media (min-width:767.9px) {
+    .scrollTop {
+        height: 50px !important;
+    }
+}
+
+.animation_preloader {
+    animation: loder 3s linear;
+}
+
+@keyframes loder {
+    0% {
+        transform: scale(1.1);
+    }
+
+    25% {
+        transform: scale(1.5);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    75% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+
+}

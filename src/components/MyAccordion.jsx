@@ -30,7 +30,7 @@ export function MyAccordion() {
             {/* <div className='blur-[132px]  bg-[#FDDA60] w-[132px] h-[132px]  absolute top-[45%]  start-[50%]'></div> */}
             <div className="container mx-auto mb-[455px] md:mb-[290px]">
                 <h2 className="text-black pt-[100px]  font-medium text-[28px] md:text-[30px] lg:text-[40px]  font-Rubik leading-none text-center md:pt-[120px] lg:pt-[150px] pb-[20px] md:pb-[60px] ">Frequently Asked Questions</h2>
-                <div className=" flex justify-center pb-[60px] sm:pb-0 md:pb-[120px] relative z-20 ">
+                <div className=" flex justify-center pb-[60px] sm:pb-0 md:pb-[120px] relative z-20 " data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
                     <div className="w-full lg:w-10/12 text-[#010101] ">
                         <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className=" ">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px]  lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(1)}>Q1. How does the CVhawk work??</AccordionHeader>
@@ -84,7 +84,7 @@ export function MyAccordion() {
                         <div className='border-[1px] border-solid border-black opacity-[0.1] ' ></div>
                     </div>
                 </div>
-                <div className="container relative">
+                <div className="container relative" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
                     <div className="rounded-[21px] bg-[#F36A3E] w-full px-[21px] py-[60px] md:py-[36px] lg:py-[64px] absolute left-0 top-[90px] sm:top-[145px] md:top-[50px]">
                         <h2 className="text-center font-Rubik text-[28px] md:text-[30px] lg:text-[40px] font-medium text-white md:max-w-[669px] mx-auto">Your Path to Success Starts Here: Build Your CV Today</h2>
                         <p className="text-center text-white text-[14px] md:text-base mt-[16px] mb-[40px]  max-w-[615px] mx-auto"> Our CV builder not only provides a user-friendly interface but also offers valuable guidance along the way.</p>
@@ -93,7 +93,7 @@ export function MyAccordion() {
                         </div>
                     </div>
                 </div>
-            </div>kj
+            </div>
         </section>
     );
 };
