@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from "react-slick";
 import HeroSliderImg from '../assets/img/png/hero_slider_img.png'
-import ThemesSectionImg from '../assets/img/png/ThemesSectionimg.png'
-import ThemesSectionImgtwo from '../assets/img/png/ThemesSectionimgtwo.png'
+import ThemesSectionImg from '../assets/img/gif/themesectionimg.gif'
+import ThemesSectionImgtwo from '../assets/img/gif/themesectionimg.gif'
 import { CustomizeIcon, MakecopiesIcon, TemplatesIcon, ThemesIcon, VersionhistoryIcon } from './common/Icon';
 const Themes = () => {
     var settings = {
@@ -57,7 +57,7 @@ const Themes = () => {
     return (
         <section>
             <div className="container mx-auto  md:pt-[175px] lg:pt-[330px]">
-                <div className='md:hidden py-[35px]' data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
+                <div className='md:hidden py-[35px]' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                     <Slider {...settings} >
                         <div>
                             <img className='w-full' src={HeroSliderImg} alt="HeroSliderImg" />
@@ -74,12 +74,12 @@ const Themes = () => {
                     </Slider>
                 </div>
                 <div className='lg:flex justify-center mt-[100px] mb-[100px] md:mb-[120px] lg:mb-[150px]'>
-                    <div className='w-full lg:w-6/12 py-4 lg:pe-[18px]' data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='w-full lg:w-6/12 py-4 lg:pe-[18px]' data-aos="fade-right" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                         <img className='shadow-[0px_2.01812px_23.5447px_0px] hidden lg:block shadow-[#d3d0d0] rounded-[10px] lg:h-[340px] w-full' src={ThemesSectionImg} alt="Img" />
                         <img className='lg:hidden w-full shadow-[#d3d0d0] shadow-[0px_2.01812px_23.5447px_0px] rounded-[10px]' src={ThemesSectionImgtwo} alt="" />
                     </div>
-                    <div className=' lg:w-6/12 xl:ps-[18px] mt-[25px] md:mt-[40px] lg:mt-0' data-aos="fade-left" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
-                        <div  data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear" >
+                    <div className=' lg:w-6/12 xl:ps-[18px] mt-[25px] md:mt-[40px] lg:mt-0' data-aos="fade-left" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
+                        <div  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear" >
                             <Slider {...settingstwo} >
                                 <div>
                                     <div className='py-4 '>
@@ -130,7 +130,7 @@ const Themes = () => {
                                                 <VersionhistoryIcon />
                                             </div>
 
-                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-medium text-center '>Version history</h2>
+                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-medium text-center Version'>Version history</h2>
                                         </div>
                                     </div>
                                 </div>

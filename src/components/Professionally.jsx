@@ -7,7 +7,7 @@ const Professionally = () => {
         <section className='bg-[#F9F9F9] '>
             <div className="container mx-auto">
                 <div className='md:flex items-center md:py-[80px]'>
-                    <div className=' lg:w-7/12'  data-aos="fade-right" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
+                    <div className=' lg:w-7/12'  data-aos="fade-right" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                         <h2 className='text-[#010101] font-Rubik text-[27px] md:text-[30px] font-medium pt-[40px] md:pt-0 pb-[15px] lg:max-w-[402px] relative'>20+ <span className='text-[#F36A3E]'>Professionally designed</span> resume sections</h2>
                         <p className='text-black font-Rubik text-[13px] md:text-[16px] font-normal leading-[150%] pb-[30px] md:pb-0 lg:max-w-[455px] '>Express your professional history without limitations or worry about how your resume looks</p>
                         <div className='flex mb-[22px] mt-[24px]'>
@@ -32,7 +32,7 @@ const Professionally = () => {
                             <Link onClick={() => setShowNavbar(true)} className='px-[22px] py-[14px] mt-[40px] hidden md:block  xs:px-[38px] xs:py-[17px] bg-[#F36A3E] text-white common_btn rounded-[41px]  font-semibold font-Rubik hover:text-white  xs:me-[17px] ' to="/Touch">Get Started</Link>
                         </div>
                     </div>
-                    <div className='pb-[50px] md:pb-0  lg:w-5/12  ' data-aos="fade-left" data-aos-duration="800" data-aos-delay="300" data-aos-easing="linear">
+                    <div className='pb-[50px] md:pb-0  lg:w-5/12  ' data-aos="fade-left" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                         <img className='w-full' src={ProfessionallyImg} alt="image" />
                         <Link onClick={() => setShowNavbar(true)} className='px-[22px] py-[14px] mt-[40px] md:hidden  xs:px-[38px] xs:py-[17px] bg-[#F36A3E] text-white common_btn rounded-[41px]  font-semibold font-Rubik hover:text-white inline-block xs:me-[17px] ' to="/Touch">Get Started</Link>
                     </div>
