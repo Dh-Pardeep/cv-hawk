@@ -15,15 +15,14 @@ import ClientsSlider from '../ClientsSlider';
 import MyFooter from '../common/MyFooter';
 import BackToTop from '../common/BackToTop';
 import LoaderHome from '../common/LoaderHome';
-import StrackSlider from '../StrackSlider';
 const HomePage = () => {
   useEffect(() => {
     AOS.init();
   }, [])
   return (
     <div className='overflow-hidden'>
-      {/* <BackToTop/>
-      <LoaderHome/> */}
+      <BackToTop/>
+      <LoaderHome/>
       <HeroSection />
       <Themes />
       <Powerful />
@@ -33,7 +32,6 @@ const HomePage = () => {
       <ClientsSlider/>
       <MyAccordion />
       <MyFooter />
-      {/* <StrackSlider/> */}
     </div>
   )
 }
