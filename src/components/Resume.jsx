@@ -4,7 +4,8 @@ import BuilderDownImg from './../assets/img/png/builderDownline.png'
 import { TrueIcon } from './common/Icon'
 const Resume = () => {
     return (
-        <section >
+        <section className='relative'>
+                  <div className='blur-[120px] opacity-[0.5] hidden lg:block  bg-[#F36A3E] w-[160px] h-[140px]  absolute top-[20%] lg:top-[25%] right-0'></div>
             <div className="container mx-auto">
                 <div className='md:flex items-center my-[50px] md:my-[70px] lg:my-[90px]  gap-[40px]'>
                     <div className=' lg:w-7/12' data-aos="fade-left" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">

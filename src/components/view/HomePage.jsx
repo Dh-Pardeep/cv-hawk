@@ -20,7 +20,7 @@ const HomePage = () => {
     AOS.init();
   }, [])
   return (
-    <div>
+    <div className='overflow-hidden'>
       <BackToTop/>
       <LoaderHome/>
       <HeroSection />

@@ -55,7 +55,8 @@ const Themes = () => {
         ]
     };
     return (
-        <section>
+        <section className='relative'>
+             <div className='blur-[120px] opacity-[0.5] hidden md:block  bg-[#F36A3E] w-[160px] h-[140px]  absolute top-[45%] lg:top-[82%] right-0'></div>
             <div className="container mx-auto  md:pt-[175px] lg:pt-[330px]">
                 <div className='md:hidden py-[35px]' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                     <Slider {...settings} >

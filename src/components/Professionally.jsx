@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 import { TrueIcon } from './common/Icon'
 const Professionally = () => {
     return (
-        <section className='bg-[#F9F9F9] '>
+        <section className='bg-[#F9F9F9] relative'>
+             <div className='blur-[120px] opacity-[0.5] hidden md:block  bg-[#F36A3E] w-[160px] h-[160px]  absolute top-[40%] lg:top-[35%] right-[30%]'></div>
             <div className="container mx-auto">
                 <div className='md:flex items-center md:py-[80px]'>
                     <div className=' lg:w-7/12'  data-aos="fade-right" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">

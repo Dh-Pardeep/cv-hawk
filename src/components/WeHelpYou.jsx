@@ -3,7 +3,8 @@ import HelpYouImg from '../assets/img/png/HelpyouImg.png'
 import { Link } from 'react-router-dom'
 const WeHelpYou = () => {
   return (
-    <section>
+    <section className='relative'>
+       <div className='blur-[120px] opacity-[0.5] hidden lg:block  bg-[#F36A3E] w-[160px] h-[140px]  absolute top-[20%] lg:top-[25%] right-0'></div>
       <div className="container mx-auto">
         <div className='md:flex gap-[31px] md:pt-[120px] lg:pt-[150px] md:mb-[35px] lg:mb-[70px]'>
           <div className='md:w-6/12 lg:pt-[57px]'  data-aos="fade-left" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
