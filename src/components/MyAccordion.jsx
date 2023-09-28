@@ -32,7 +32,7 @@ export function MyAccordion() {
                 <h2 className="text-black pt-[100px]  font-medium text-[28px] md:text-[30px] lg:text-[40px]  font-Rubik leading-none text-center md:pt-[120px] lg:pt-[150px] pb-[20px] md:pb-[60px] "data-aos="fade-up" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">Frequently Asked Questions</h2>
                 <div className=" flex justify-center pb-[60px] sm:pb-0 md:pb-[120px] relative z-20 " data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                     <div className="w-full lg:w-10/12 text-[#010101] ">
-                        <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className=" ">
+                        <Accordion open={open === 1} icon={<Icon id={1} open={open} />} className="">
                             <AccordionHeader className="font-Rubik md:text-[20px] text-[16px]  lg:text-[24px]  font-normal text-start  xs:max-w-none  " onClick={() => handleOpen(1)}>Q1. How does the CVhawk work??</AccordionHeader>
                             <AccordionBody className=" font-normal text-[14px] md:text-base   font-Rubik">
                                 Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.
