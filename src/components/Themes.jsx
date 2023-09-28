@@ -88,7 +88,7 @@ const Themes = () => {
                                             <div className='mt-[23px]'>
                                                 <ThemesIcon />
                                             </div>
-                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out  text-black text-[18px] md:text-[20px] lg:text-[22px] themes font-Rubik font-medium'>Themes</h2>
+                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out  text-black text-[18px] md:text-[20px] lg:text-[22px] themes font-Rubik font-semibold'>Themes</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ const Themes = () => {
                                             <div className='mt-[23px]'>
                                                 <MakecopiesIcon />
                                             </div>
-                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-medium'>Make copies</h2>
+                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-semibold'>Make copies</h2>
                                         </div>
 
                                     </div>
@@ -109,7 +109,7 @@ const Themes = () => {
                                             <div className='mt-[23px]'>
                                                 <MakecopiesIcon />
                                             </div>
-                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-medium'>Make copies</h2>
+                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-semibold'>Make copies</h2>
                                         </div>
 
                                     </div>
@@ -120,7 +120,7 @@ const Themes = () => {
                                             <div className='mt-[23px]'>
                                                 <TemplatesIcon />
                                             </div>
-                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-medium'>Templates</h2>
+                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-semibold'>Templates</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@ const Themes = () => {
                                                 <VersionhistoryIcon />
                                             </div>
 
-                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-medium text-center Version'>Version history</h2>
+                                            <h2 className='mt-[15px] group-hover:text-[#F36A3E] transition-all duration-300 ease-in-out   text-black text-[18px] md:text-[20px] lg:text-[22px] font-Rubik font-semibold text-center Version'>Version history</h2>
                                         </div>
                                     </div>
                                 </div>

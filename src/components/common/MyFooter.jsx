@@ -25,25 +25,25 @@ const MyFooter = () => {
                     <div className='sm:flex justify-between md:w-8/12 lg:w-7/12 pt-[20px ]' >
                         <div className='flex justify-between'>
                             <ul className='text-white font-Rubik '>
-                                <li className='font-medium '>Quick Links</li>
+                                <li className='font-semibold '>Quick Links</li>
                                 <li><Link className='opacity-[0.8] mt-[20px] inline-block '>Home</Link></li>
                                 <li><Link className='opacity-[0.8] mt-[20px] inline-block'>About</Link></li>
                                 <li><Link className='opacity-[0.8] mt-[20px] inline-block'>We’ll help you</Link></li>
                                 <li><Link className='opacity-[0.8] mt-[20px] inline-block'>Testimonials</Link></li>
                             </ul>
                             <ul className='text-white font-Rubik sm:hidden'>
-                                <li className='font-medium'>Support</li>
+                                <li className='font-semibold'>Support</li>
                                 <li className='flex  mt-[20px] items-center gap-[6px]'><PhoneIcon /><Link className='opacity-[0.8]  inline-block'>+012 345 67890</Link></li>
                                 <li className='flex  mt-[20px] items-center gap-[6px]'><MailIcon /><Link className='opacity-[0.8]  inline-block'>Cvhawk@gmail.com</Link></li>
                             </ul>
                         </div>
                         <ul className='text-white font-Rubik hidden sm:block'>
-                            <li className='font-medium'>Support</li>
+                            <li className='font-semibold'>Support</li>
                             <li className='flex  mt-[20px] items-center gap-[6px]'><PhoneIcon /><Link className='opacity-[0.8] inline-block'>+012 345 67890</Link></li>
                             <li className='flex  mt-[20px] items-center gap-[6px]'><MailIcon /><Link className='opacity-[0.8]  inline-block'>Cvhawk@gmail.com</Link></li>
                         </ul>
                         <ul className='text-white font-Rubik'>
-                            <li className='font-medium mt-[30px] sm:mt-0'>Legal</li>
+                            <li className='font-semibold mt-[30px] sm:mt-0'>Legal</li>
                             <li><Link className='opacity-[0.8] inline-block  mt-[20px]'>Privacy Policy</Link></li>
                             <li><Link className='opacity-[0.8] inline-block  mt-[20px]'>Terms & conditions</Link></li>
                         </ul>
