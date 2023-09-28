@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import HeroSliderImg from '../assets/img/png/hero_slider_img.png'
+import HeroSliderImg from '../assets/img/webp/hero_slider_img.webp'
 import ThemesSectionImg from '../assets/img/gif/themesectionimg.gif'
 import ThemesSectionImgtwo from '../assets/img/gif/themesectionimg.gif'
 import { CustomizeIcon, MakecopiesIcon, TemplatesIcon, ThemesIcon, VersionhistoryIcon } from './common/Icon';

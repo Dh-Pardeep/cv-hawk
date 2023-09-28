@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SliderImgOne from './../assets/img/png/sliderone.png'
-import SliderImgtwo from './../assets/img/png/slidertwo.png'
-import SliderImgthree from './../assets/img/png/sliderthree.png'
-import SliderImgfour from './../assets/img/png/sliderfour.png'
+import SliderImgOne from './../assets/img/webp/sliderone.webp'
+import SliderImgtwo from './../assets/img/webp/slidertwo.webp'
+import SliderImgthree from './../assets/img/webp/sliderthree.webp'
+import SliderImgfour from './../assets/img/webp/sliderfour.webp'
 import { TrueIcon } from './common/Icon'
 const Professionally = () => {
     window.onload = () => {
