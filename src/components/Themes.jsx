@@ -1,10 +1,21 @@
 import React from 'react'
 import Slider from "react-slick";
+import { useEffect, useState, useRef } from "react";
 import HeroSliderImg from '../assets/img/webp/hero_slider_img.webp'
 import ThemesSectionImg from '../assets/img/gif/themesectionimg.gif'
 import ThemesSectionImgtwo from '../assets/img/gif/themesectionimg.gif'
 import { CustomizeIcon, MakecopiesIcon, TemplatesIcon, ThemesIcon, VersionhistoryIcon } from './common/Icon';
 const Themes = () => {
+    const [nav1, setNav1] = useState();
+    const [nav2, setNav2] = useState();
+    const slider1 = useRef(null);
+    const slider2 = useRef(null);
+
+    //i dont seem to need this
+    useEffect(() => {
+        setNav1(slider1.current);
+        setNav2(slider2.current);
+    }, []);
     var settings = {
         dots: true,
         infinite: true,
@@ -56,7 +67,7 @@ const Themes = () => {
     };
     return (
         <section className='relative'>
-             <div className='blur-[120px] opacity-[0.5] hidden md:block  bg-[#F36A3E] w-[160px] h-[140px]  absolute top-[45%] lg:top-[82%] right-0'></div>
+            <div className='blur-[120px] opacity-[0.5] hidden md:block  bg-[#F36A3E] w-[160px] h-[140px]  absolute top-[45%] lg:top-[82%] right-0'></div>
             <div className="container mx-auto  md:pt-[175px] lg:pt-[330px]">
                 <div className='md:hidden py-[35px]' data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
                     <Slider {...settings} >
@@ -80,8 +91,14 @@ const Themes = () => {
                         <img className='lg:hidden w-full shadow-[#d3d0d0] shadow-[0px_2.01812px_23.5447px_0px] rounded-[10px]' src={ThemesSectionImgtwo} alt="" />
                     </div>
                     <div className=' lg:w-6/12 xl:ps-[18px] mt-[25px] md:mt-[40px] lg:mt-0' data-aos="fade-left" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear">
-                        <div  data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear" >
-                            <Slider {...settingstwo} >
+                        <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300" data-aos-easing="linear" >
+                            <Slider {...settingstwo}
+                                asNavFor={nav1}
+                                ref={slider2}
+                                slidesToShow={3}
+                                swipeToSlide={true}
+                                focusOnSelect={true}
+                            >
                                 <div>
                                     <div className='py-4 '>
                                         <div className='flex items-center group transition-all duration-300 ease-in-out cursor-pointer flex-col w-[150px] h-[130px] rounded-[8px] border-[2px] border-solid hover:border-[#F9C2B1] border-[#F7F7F7]  shadow-[0px_4px_30px_0px] shadow-[#0000000a]'>
@@ -136,9 +153,23 @@ const Themes = () => {
                                     </div>
                                 </div>
                             </Slider>
-                        </div>
-                        <div>
-                            <p className='font-Rubik font-normal  text-base text-black lg:max-w-[500px] leading-[153%] opacity-[0.8] mt-[65px]'>Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                            <Slider className="mainSlider" asNavFor={nav2} ref={slider1}>
+                                <div>
+                                    <p className='font-Rubik font-normal  text-base text-black lg:max-w-[500px] leading-[153%] opacity-[0.8] mt-[65px]'>Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                                </div>
+                                <div>
+                                    <p className='font-Rubik font-normal  text-base text-black lg:max-w-[500px] leading-[153%] opacity-[0.8] mt-[65px]'>Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                                </div>
+                                <div>
+                                    <p className='font-Rubik font-normal  text-base text-black lg:max-w-[500px] leading-[153%] opacity-[0.8] mt-[65px]'>Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                                </div>
+                                <div>
+                                    <p className='font-Rubik font-normal  text-base text-black lg:max-w-[500px] leading-[153%] opacity-[0.8] mt-[65px]'>Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                                </div>
+                                <div>
+                                    <p className='font-Rubik font-normal  text-base text-black lg:max-w-[500px] leading-[153%] opacity-[0.8] mt-[65px]'>Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                                </div>
+                            </Slider>
                         </div>
                     </div>
                 </div>
