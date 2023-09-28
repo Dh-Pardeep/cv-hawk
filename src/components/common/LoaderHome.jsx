@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Preloader_img from '../../assets/img/png/SiteLogo.png'
+import Preloader_img from '../../assets/img/png/peloaderimg.png'
 function LoaderHome() {
   const [loder, setloader] = useState(true);
   useEffect(() => {
